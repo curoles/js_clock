@@ -1,0 +1,24 @@
+{
+  "name": "js_clock",
+  "version": "0.0.1",
+  "description": "Clock App",
+  "main": "src/main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curoles/js_clock.git"
+  },
+  "keywords": [
+    "clock"
+  ],
+  "author": "Igor Lesik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curoles/js_clock/issues"
+  },
+  "homepage": "https://github.com/curoles/js_clock#readme"
+}

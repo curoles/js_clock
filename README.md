@@ -11,3 +11,11 @@ $ git remote add origin https://github.com/curoles/js_clock.git
 $ git remote show origin
 $ git pull origin master
 ```
+
+
+# GIT commit log with all changes
+
+
+```terminal
+ git log --full-diff -p
+```
