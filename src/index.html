@@ -1,19 +1,34 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <title>Clock - cUr0les</title>
-  </head>
-  <body>
-    <h1>myJournal</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+    <title>Clock - cUr0Les</title>
+
+    <link rel="stylesheet" media="screen" href="clock.css">
+    <script src="clock.js"></script>
+
+    <script>
+        onload = initClockApp;
+    </script>
+</head>
+
+<body>
+    <header></header>
+
+    <main width="100%" height="100%">
+        <canvas id="canvas" width="100%" height="100%">
+        Canvas does not work. Error.
+        </canvas>
+	
+    </main>
+
+    <footer></footer>
+ </body>
 
   <script>
     // You can also require other files to run in this process
     require('./renderer.js')
   </script>
+ 
 </html>
