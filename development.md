@@ -1,5 +1,26 @@
 # Development notes
 
+## Install Electron
+
+```terminal
+$ npm install --verbose electron --save-dev --save-exact
+```
+
+Note: Windows 10, for some reason this does not work in Git Bash, had to use PowerShell.
+
+
+## Upgrade NPM on Windows
+
+As administrator in PowerShell:
+
+```terminal
+PS C:\Users\ilesik\prj\js_clock> npm -version
+3.10.10
+PS C:\Users\ilesik\prj\js_clock> npm install -g npm
+PS C:\Users\ilesik\prj\js_clock> npm -version
+5.6.0
+```
+
 
 ## Make Node project - Thu, Dec 28, 2017  4:13 PM
 
@@ -66,4 +87,10 @@ $ git pull origin master
  git log --full-diff -p
 ```
 
-git config core.autocrlf
+### Turn Off autocrlf
+
+```terminal
+git config core.autocrlf false
+```
+
+Using Windows, but editors should handle single LF.
