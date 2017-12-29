@@ -1,23 +1,14 @@
 # js_clock - Javascript Clock App
 
+**Clock** application is a simple HTML+CSS+Javascript program to show current time.
+**Clock** application has two distributions:
+
+- Web version and
+- standalone executable made with **Electron**.
+
+
 ## Web version
 
-<iframe src="http://www.w3schools.com"></iframe>
+Web distribution of
+[Clock App hosted on Github](http://curoles.github.io/js_clock "Clock App")
 
-## GIT add and pull remote
-
-
-```terminal
-$ git init
-$ git remote add origin https://github.com/curoles/js_clock.git
-$ git remote show origin
-$ git pull origin master
-```
-
-
-# GIT commit log with all changes
-
-
-```terminal
- git log --full-diff -p
-```
