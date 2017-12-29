@@ -3,7 +3,7 @@
 ## Install Electron
 
 ```terminal
-$ npm install --verbose electron --save-dev --save-exact
+$ npm install --verbose electron --save-dev --save-exact
 ```
 
 Note: Windows 10, for some reason this does not work in Git Bash, had to use PowerShell.
