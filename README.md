@@ -1,6 +1,8 @@
 # js_clock - Javascript Clock App
 
+## Web version
 
+<iframe src="http://www.w3schools.com"></iframe>
 
 ## GIT add and pull remote
 
